@@ -55,11 +55,9 @@ web/              Web platform project
 
 ### Installation
 
-1. Clone the repository:
+1. Download the zip file
 
-```bash
-git clone https://github.com/YOUR_USERNAME/Blood_Bank_App.git
-```
+   extract in folder 
 
 2. Open the project:
 
@@ -85,23 +83,6 @@ ios/Runner/GoogleService-Info.plist
 ```bash
 flutter run
 ```
-
-## Important Security Notes
-
-The following files are intentionally ignored and should not be committed:
-
-```text
-android/app/google-services.json
-ios/Runner/GoogleService-Info.plist
-lib/firebase_options.dart
-lib/services/onesignal_service.dart
-.env
-*.jks
-*.keystore
-key.properties
-```
-
-Do not commit API keys, Firebase config files, keystore files, or OneSignal REST API keys to a public repository. Notification sending with a OneSignal REST API key should be handled from a secure backend or cloud function, not directly inside the Flutter client.
 
 ## Common Commands
 
